@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	/Users/sofaking/Documents/rails/depot/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	/Users/sofaking/Documents/rails/depot/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Depot
+ApplicationController	/Users/sofaking/Documents/rails/depot/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	/Users/sofaking/Documents/rails/depot/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreateProducts	/Users/sofaking/Documents/rails/depot/db/migrate/20130623131435_create_products.rb	/^class CreateProducts < ActiveRecord::Migration$/;"	c
+Depot	/Users/sofaking/Documents/rails/depot/config/application.rb	/^module Depot$/;"	m
+Product	/Users/sofaking/Documents/rails/depot/app/models/product.rb	/^class Product < ActiveRecord::Base$/;"	c
+ProductTest	/Users/sofaking/Documents/rails/depot/test/models/product_test.rb	/^class ProductTest < ActiveSupport::TestCase$/;"	c
+ProductsController	/Users/sofaking/Documents/rails/depot/app/controllers/products_controller.rb	/^class ProductsController < ApplicationController$/;"	c
+ProductsControllerTest	/Users/sofaking/Documents/rails/depot/test/controllers/products_controller_test.rb	/^class ProductsControllerTest < ActionController::TestCase$/;"	c
+ProductsHelper	/Users/sofaking/Documents/rails/depot/app/helpers/products_helper.rb	/^module ProductsHelper$/;"	m
+ProductsHelperTest	/Users/sofaking/Documents/rails/depot/test/helpers/products_helper_test.rb	/^class ProductsHelperTest < ActionView::TestCase$/;"	c
+change	/Users/sofaking/Documents/rails/depot/db/migrate/20130623131435_create_products.rb	/^  def change$/;"	f	class:CreateProducts
+create	/Users/sofaking/Documents/rails/depot/app/controllers/products_controller.rb	/^  def create$/;"	f	class:ProductsController
+destroy	/Users/sofaking/Documents/rails/depot/app/controllers/products_controller.rb	/^  def destroy$/;"	f	class:ProductsController
+edit	/Users/sofaking/Documents/rails/depot/app/controllers/products_controller.rb	/^  def edit$/;"	f	class:ProductsController
+index	/Users/sofaking/Documents/rails/depot/app/controllers/products_controller.rb	/^  def index$/;"	f	class:ProductsController
+new	/Users/sofaking/Documents/rails/depot/app/controllers/products_controller.rb	/^  def new$/;"	f	class:ProductsController
+product_params	/Users/sofaking/Documents/rails/depot/app/controllers/products_controller.rb	/^    def product_params$/;"	f	class:ProductsController
+set_product	/Users/sofaking/Documents/rails/depot/app/controllers/products_controller.rb	/^    def set_product$/;"	f	class:ProductsController
+show	/Users/sofaking/Documents/rails/depot/app/controllers/products_controller.rb	/^  def show$/;"	f	class:ProductsController
+update	/Users/sofaking/Documents/rails/depot/app/controllers/products_controller.rb	/^  def update$/;"	f	class:ProductsController
