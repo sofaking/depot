@@ -5,4 +5,13 @@ class LineItem < ActiveRecord::Base
   def total_price
     product.price * quantity
   end
+
+  def decrease_quantity
+    if quantity == 1
+      destroy
+    else
+      self.quantity -= 1
+      save
+    end
+  end
 end

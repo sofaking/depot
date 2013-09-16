@@ -1,6 +1,6 @@
 class LineItemsController < ApplicationController
   include CurrentCart
-  before_action :set_cart, only: [:create]
+  before_action :set_cart, only: [:create, :destroy]
   before_action :set_line_item, only: [:show, :edit, :update, :destroy]
 
   # GET /line_items
@@ -61,9 +61,10 @@ class LineItemsController < ApplicationController
   # DELETE /line_items/1.json
   def destroy
     cart = @line_item.cart
-    @line_item.destroy
+    @line_item.decrease_quantity
     respond_to do |format|
-      format.html { redirect_to cart }
+      format.html { redirect_to store_url }
+      format.js
       format.json { head :no_content }
     end
   end
