@@ -4,8 +4,10 @@ one:
   product: one
   cart: one
   price: 5.00
+  order: one
 
-two:
-  product: two
-  cart: two 
-  price: two.price
+ruby:
+  product: ruby
+  cart: ruby
+  price: 5.00
+  order: ruby

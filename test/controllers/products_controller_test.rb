@@ -46,7 +46,7 @@ class ProductsControllerTest < ActionController::TestCase
   end
 
   test "should destroy product" do
-    product = products(:ruby)
+    product = products(:two)
     assert_difference('Product.count', -1) do
       delete :destroy, id: product
     end
